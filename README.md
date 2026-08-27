@@ -1,6 +1,6 @@
 # Static YSWS KiCad Library
 
-Custom KiCad symbols and footprints used throughout the **Static** YSWS (You Ship We Ship) tutorials, hosted by Hack Club. This library includes parts like the RDA5807M FM receiver, TDA2822M audio amplifier, ESP32-C3 SuperMini, and other components used in the reference designs.
+Custom KiCad symbols and footprints used throughout the Static YSWS tutorial. 
 
 ## Installation
 
@@ -8,7 +8,7 @@ Custom KiCad symbols and footprints used throughout the **Static** YSWS (You Shi
 Clone it, or download as a ZIP and unzip it somewhere on your computer:
 
 ```bash
-git clone https://github.com/<your-org>/static-ysws-kicad-lib.git
+git clone https://github.com/Outdatedcandy92/Static-KiCAD-Library.git
 ```
 
 ### 2. Set the `STATIC_LIB` environment variable in KiCad
