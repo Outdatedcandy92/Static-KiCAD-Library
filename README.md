@@ -43,8 +43,8 @@ Open the symbol chooser (`Add Symbol` in the schematic editor) and search for a 
 
 ## Troubleshooting
 
-- **Library doesn't appear:** Double-check the `STATIC_LIB` path in Configure Paths — it should point to the folder itself, not a file inside it.
-- **Symbols show up but footprints are missing:** Make sure both the symbol library (step 3) *and* the footprint library (step 4) were added — they're separate steps in KiCad.
+- **Library doesn't appear:** Double-check the `STATIC_LIB` path in Configure Paths. It should point to the folder itself, not a file inside it.
+- **Symbols show up but footprints are missing:** Make sure both the symbol library (step 3) and the footprint library (step 4) were added. They're separate steps in KiCad.
 - **"File not found" errors:** Confirm you're using the `STATIC_LIB` variable in the library path (e.g. `${STATIC_LIB}/Static_Symbol_Library.kicad_sym`) rather than a hardcoded absolute path, so it works even if you move the project.
 
 ## Questions
